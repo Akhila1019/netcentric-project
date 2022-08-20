@@ -5,7 +5,13 @@
   height: 40px;
 }
 
-.side-image {
+.register-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.back-image {
     background-image: url('images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,3 +46,5 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+.register-image:hover {  border:2px solid red;  box-shadow: 0 0 10px #333;  -webkit-box-shadow: 0 0 10px #333;  -moz-box-shadow: 0 0 10px #333;  -o-box-shadow: 0 0 10px #333;  -ms-box-shadow: 0 0 10px #333;}
