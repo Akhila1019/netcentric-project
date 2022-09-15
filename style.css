@@ -95,3 +95,16 @@ body {
     padding-left: 240px;
   }
 }
+
+
+.know-more-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+.w3-sidebar {width: 50px;background: black;}
+
