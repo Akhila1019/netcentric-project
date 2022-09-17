@@ -104,7 +104,18 @@ body {
   font-weight: 500;
 }
 
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: relative;
+  overflow-x: hidden;
+}
 
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
 
-.w3-sidebar {width: 50px;background: black;}
-
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
